@@ -7,16 +7,212 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88B503041F66C7D700B82A93 /* OpenCC.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B503021F66C7D700B82A93 /* OpenCC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8846C0C31F6AEB4000B9A83A /* hk2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B31F6AE92600B9A83A /* hk2s.json */; };
+		8846C0C41F6AEB4000B9A83A /* s2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AF1F6AE92600B9A83A /* s2hk.json */; };
+		8846C0C51F6AEB4000B9A83A /* s2t.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AA1F6AE92500B9A83A /* s2t.json */; };
+		8846C0C61F6AEB4000B9A83A /* s2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AB1F6AE92600B9A83A /* s2tw.json */; };
+		8846C0C71F6AEB4000B9A83A /* s2twp.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B21F6AE92600B9A83A /* s2twp.json */; };
+		8846C0C81F6AEB4000B9A83A /* t2hk.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B11F6AE92600B9A83A /* t2hk.json */; };
+		8846C0C91F6AEB4000B9A83A /* t2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AC1F6AE92600B9A83A /* t2s.json */; };
+		8846C0CA1F6AEB4000B9A83A /* t2tw.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AD1F6AE92600B9A83A /* t2tw.json */; };
+		8846C0CB1F6AEB4000B9A83A /* tw2s.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0AE1F6AE92600B9A83A /* tw2s.json */; };
+		8846C0CC1F6AEB4000B9A83A /* tw2sp.json in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B01F6AE92600B9A83A /* tw2sp.json */; };
+		8846C0CE1F6B517E00B9A83A /* ChineseConverter+Embeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846C0CD1F6B517E00B9A83A /* ChineseConverter+Embeded.swift */; };
+		8855D9FC1F6CD4EB0076C991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855D9FB1F6CD4EB0076C991 /* AppDelegate.swift */; };
+		8855D9FE1F6CD4EB0076C991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8855D9FD1F6CD4EB0076C991 /* Assets.xcassets */; };
+		8855DA011F6CD4EB0076C991 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8855D9FF1F6CD4EB0076C991 /* MainMenu.xib */; };
+		8855DA081F6CD5360076C991 /* OpenCCSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B502FF1F66C7D700B82A93 /* OpenCCSwift.framework */; };
+		8855DA091F6CD5360076C991 /* OpenCCSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88B502FF1F66C7D700B82A93 /* OpenCCSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		887576391F684659004D7895 /* BinaryDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576181F6845F3004D7895 /* BinaryDict.cpp */; };
+		8875763A1F684659004D7895 /* BinaryDict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875761D1F6845F4004D7895 /* BinaryDict.hpp */; };
+		8875763B1F684659004D7895 /* CmdLineOutput.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576201F6845F4004D7895 /* CmdLineOutput.hpp */; };
+		8875763C1F684659004D7895 /* Common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576151F6845F3004D7895 /* Common.hpp */; };
+		8875763D1F684659004D7895 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576211F6845F4004D7895 /* Config.cpp */; };
+		8875763E1F684659004D7895 /* Config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576101F6845F3004D7895 /* Config.hpp */; };
+		8875763F1F684659004D7895 /* Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576311F6845F6004D7895 /* Conversion.cpp */; };
+		887576401F684659004D7895 /* Conversion.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576321F6845F6004D7895 /* Conversion.hpp */; };
+		887576411F684659004D7895 /* ConversionChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576331F6845F6004D7895 /* ConversionChain.cpp */; };
+		887576421F684659004D7895 /* ConversionChain.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875762F1F6845F6004D7895 /* ConversionChain.hpp */; };
+		887576431F684659004D7895 /* Converter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576291F6845F5004D7895 /* Converter.cpp */; };
+		887576441F684659004D7895 /* Converter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875761A1F6845F4004D7895 /* Converter.hpp */; };
+		887576451F684659004D7895 /* DartsDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576361F6845F7004D7895 /* DartsDict.cpp */; };
+		887576461F684659004D7895 /* DartsDict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576191F6845F3004D7895 /* DartsDict.hpp */; };
+		887576471F684659004D7895 /* Dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576221F6845F4004D7895 /* Dict.cpp */; };
+		887576481F684659004D7895 /* Dict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576121F6845F3004D7895 /* Dict.hpp */; };
+		887576491F684659004D7895 /* DictConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576231F6845F4004D7895 /* DictConverter.cpp */; };
+		8875764A1F684659004D7895 /* DictConverter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875761B1F6845F4004D7895 /* DictConverter.hpp */; };
+		8875764B1F684659004D7895 /* DictEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576281F6845F5004D7895 /* DictEntry.cpp */; };
+		8875764C1F684659004D7895 /* DictEntry.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875760E1F6845F3004D7895 /* DictEntry.hpp */; };
+		8875764D1F684659004D7895 /* DictGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576351F6845F7004D7895 /* DictGroup.cpp */; };
+		8875764E1F684659004D7895 /* DictGroup.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576261F6845F5004D7895 /* DictGroup.hpp */; };
+		8875764F1F684659004D7895 /* Exception.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875761F1F6845F4004D7895 /* Exception.hpp */; };
+		887576501F684659004D7895 /* Export.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576371F6845F7004D7895 /* Export.hpp */; };
+		887576511F684659004D7895 /* Lexicon.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576161F6845F3004D7895 /* Lexicon.hpp */; };
+		887576521F684659004D7895 /* MaxMatchSegmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8875762B1F6845F5004D7895 /* MaxMatchSegmentation.cpp */; };
+		887576531F684659004D7895 /* MaxMatchSegmentation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875761E1F6845F4004D7895 /* MaxMatchSegmentation.hpp */; };
+		887576541F684659004D7895 /* opencc.h in Headers */ = {isa = PBXBuildFile; fileRef = 887576381F6845F7004D7895 /* opencc.h */; };
+		887576551F684659004D7895 /* Optional.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875760F1F6845F3004D7895 /* Optional.hpp */; };
+		887576561F684659004D7895 /* PhraseExtract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8875760D1F6845F3004D7895 /* PhraseExtract.cpp */; };
+		887576571F684659004D7895 /* PhraseExtract.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875762A1F6845F5004D7895 /* PhraseExtract.hpp */; };
+		887576581F684659004D7895 /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576111F6845F3004D7895 /* Segmentation.cpp */; };
+		887576591F684659004D7895 /* Segmentation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576341F6845F6004D7895 /* Segmentation.hpp */; };
+		8875765A1F684659004D7895 /* Segments.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576271F6845F5004D7895 /* Segments.hpp */; };
+		8875765B1F684659004D7895 /* SerializableDict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576131F6845F3004D7895 /* SerializableDict.hpp */; };
+		8875765C1F684659004D7895 /* SimpleConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576141F6845F3004D7895 /* SimpleConverter.cpp */; };
+		8875765D1F684659004D7895 /* SimpleConverter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576171F6845F3004D7895 /* SimpleConverter.hpp */; };
+		8875765F1F684659004D7895 /* TextDict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8875762C1F6845F5004D7895 /* TextDict.cpp */; };
+		887576601F684659004D7895 /* TextDict.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576241F6845F4004D7895 /* TextDict.hpp */; };
+		887576611F684659004D7895 /* UTF8StringSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8875762D1F6845F5004D7895 /* UTF8StringSlice.cpp */; };
+		887576621F684659004D7895 /* UTF8StringSlice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8875762E1F6845F6004D7895 /* UTF8StringSlice.hpp */; };
+		887576631F684659004D7895 /* UTF8Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 887576301F6845F6004D7895 /* UTF8Util.cpp */; };
+		887576641F684659004D7895 /* UTF8Util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 887576251F6845F4004D7895 /* UTF8Util.hpp */; };
+		887576661F6848B4004D7895 /* ChineseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887576651F6848B4004D7895 /* ChineseConverter.swift */; };
+		88A2D6781F6D05D900F54CB3 /* HKVariants.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B91F6AEB3B00B9A83A /* HKVariants.ocd */; };
+		88A2D6791F6D05D900F54CB3 /* HKVariantsPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BA1F6AEB3B00B9A83A /* HKVariantsPhrases.ocd */; };
+		88A2D67A1F6D05D900F54CB3 /* HKVariantsRev.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0C01F6AEB3B00B9A83A /* HKVariantsRev.ocd */; };
+		88A2D67B1F6D05D900F54CB3 /* HKVariantsRevPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0C21F6AEB3C00B9A83A /* HKVariantsRevPhrases.ocd */; };
+		88A2D67C1F6D05D900F54CB3 /* JPVariants.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BB1F6AEB3B00B9A83A /* JPVariants.ocd */; };
+		88A2D67D1F6D05D900F54CB3 /* STCharacters.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BF1F6AEB3B00B9A83A /* STCharacters.ocd */; };
+		88A2D67E1F6D05D900F54CB3 /* STPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BC1F6AEB3B00B9A83A /* STPhrases.ocd */; };
+		88A2D67F1F6D05D900F54CB3 /* TSCharacters.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B51F6AEB3B00B9A83A /* TSCharacters.ocd */; };
+		88A2D6801F6D05D900F54CB3 /* TSPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BE1F6AEB3B00B9A83A /* TSPhrases.ocd */; };
+		88A2D6811F6D05D900F54CB3 /* TWPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0C11F6AEB3B00B9A83A /* TWPhrases.ocd */; };
+		88A2D6821F6D05D900F54CB3 /* TWPhrasesRev.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0BD1F6AEB3B00B9A83A /* TWPhrasesRev.ocd */; };
+		88A2D6831F6D05D900F54CB3 /* TWVariants.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B61F6AEB3B00B9A83A /* TWVariants.ocd */; };
+		88A2D6841F6D05D900F54CB3 /* TWVariantsRev.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B71F6AEB3B00B9A83A /* TWVariantsRev.ocd */; };
+		88A2D6851F6D05D900F54CB3 /* TWVariantsRevPhrases.ocd in Resources */ = {isa = PBXBuildFile; fileRef = 8846C0B81F6AEB3B00B9A83A /* TWVariantsRevPhrases.ocd */; };
+		88DCE3661F6D20340075DC12 /* demo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88DCE3641F6D15E70075DC12 /* demo.txt */; };
+		88DCE3681F6D305D0075DC12 /* mouse.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88DCE3671F6D30550075DC12 /* mouse.txt */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8855DA0A1F6CD5360076C991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B502F61F66C7D700B82A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B502FE1F66C7D700B82A93;
+			remoteInfo = OpenCCSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8855DA0C1F6CD5360076C991 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8855DA091F6CD5360076C991 /* OpenCCSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		88B502FF1F66C7D700B82A93 /* OpenCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88B503021F66C7D700B82A93 /* OpenCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCC.h; sourceTree = "<group>"; };
+		8846C0AA1F6AE92500B9A83A /* s2t.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = s2t.json; path = OpenCC/data/config/s2t.json; sourceTree = "<group>"; };
+		8846C0AB1F6AE92600B9A83A /* s2tw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = s2tw.json; path = OpenCC/data/config/s2tw.json; sourceTree = "<group>"; };
+		8846C0AC1F6AE92600B9A83A /* t2s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = t2s.json; path = OpenCC/data/config/t2s.json; sourceTree = "<group>"; };
+		8846C0AD1F6AE92600B9A83A /* t2tw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = t2tw.json; path = OpenCC/data/config/t2tw.json; sourceTree = "<group>"; };
+		8846C0AE1F6AE92600B9A83A /* tw2s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = tw2s.json; path = OpenCC/data/config/tw2s.json; sourceTree = "<group>"; };
+		8846C0AF1F6AE92600B9A83A /* s2hk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = s2hk.json; path = OpenCC/data/config/s2hk.json; sourceTree = "<group>"; };
+		8846C0B01F6AE92600B9A83A /* tw2sp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = tw2sp.json; path = OpenCC/data/config/tw2sp.json; sourceTree = "<group>"; };
+		8846C0B11F6AE92600B9A83A /* t2hk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = t2hk.json; path = OpenCC/data/config/t2hk.json; sourceTree = "<group>"; };
+		8846C0B21F6AE92600B9A83A /* s2twp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = s2twp.json; path = OpenCC/data/config/s2twp.json; sourceTree = "<group>"; };
+		8846C0B31F6AE92600B9A83A /* hk2s.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hk2s.json; path = OpenCC/data/config/hk2s.json; sourceTree = "<group>"; };
+		8846C0B51F6AEB3B00B9A83A /* TSCharacters.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TSCharacters.ocd; path = Resource/Dictionary/TSCharacters.ocd; sourceTree = "<group>"; };
+		8846C0B61F6AEB3B00B9A83A /* TWVariants.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWVariants.ocd; path = Resource/Dictionary/TWVariants.ocd; sourceTree = "<group>"; };
+		8846C0B71F6AEB3B00B9A83A /* TWVariantsRev.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWVariantsRev.ocd; path = Resource/Dictionary/TWVariantsRev.ocd; sourceTree = "<group>"; };
+		8846C0B81F6AEB3B00B9A83A /* TWVariantsRevPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWVariantsRevPhrases.ocd; path = Resource/Dictionary/TWVariantsRevPhrases.ocd; sourceTree = "<group>"; };
+		8846C0B91F6AEB3B00B9A83A /* HKVariants.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = HKVariants.ocd; path = Resource/Dictionary/HKVariants.ocd; sourceTree = "<group>"; };
+		8846C0BA1F6AEB3B00B9A83A /* HKVariantsPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = HKVariantsPhrases.ocd; path = Resource/Dictionary/HKVariantsPhrases.ocd; sourceTree = "<group>"; };
+		8846C0BB1F6AEB3B00B9A83A /* JPVariants.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = JPVariants.ocd; path = Resource/Dictionary/JPVariants.ocd; sourceTree = "<group>"; };
+		8846C0BC1F6AEB3B00B9A83A /* STPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = STPhrases.ocd; path = Resource/Dictionary/STPhrases.ocd; sourceTree = "<group>"; };
+		8846C0BD1F6AEB3B00B9A83A /* TWPhrasesRev.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWPhrasesRev.ocd; path = Resource/Dictionary/TWPhrasesRev.ocd; sourceTree = "<group>"; };
+		8846C0BE1F6AEB3B00B9A83A /* TSPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TSPhrases.ocd; path = Resource/Dictionary/TSPhrases.ocd; sourceTree = "<group>"; };
+		8846C0BF1F6AEB3B00B9A83A /* STCharacters.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = STCharacters.ocd; path = Resource/Dictionary/STCharacters.ocd; sourceTree = "<group>"; };
+		8846C0C01F6AEB3B00B9A83A /* HKVariantsRev.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = HKVariantsRev.ocd; path = Resource/Dictionary/HKVariantsRev.ocd; sourceTree = "<group>"; };
+		8846C0C11F6AEB3B00B9A83A /* TWPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = TWPhrases.ocd; path = Resource/Dictionary/TWPhrases.ocd; sourceTree = "<group>"; };
+		8846C0C21F6AEB3C00B9A83A /* HKVariantsRevPhrases.ocd */ = {isa = PBXFileReference; lastKnownFileType = file; name = HKVariantsRevPhrases.ocd; path = Resource/Dictionary/HKVariantsRevPhrases.ocd; sourceTree = "<group>"; };
+		8846C0CD1F6B517E00B9A83A /* ChineseConverter+Embeded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChineseConverter+Embeded.swift"; sourceTree = "<group>"; };
+		884EE9D61F6CDB1300EBD9C7 /* module.private.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.private.modulemap; sourceTree = "<group>"; };
+		8855D9F91F6CD4EB0076C991 /* OpenCCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8855D9FB1F6CD4EB0076C991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8855D9FD1F6CD4EB0076C991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8855DA001F6CD4EB0076C991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8855DA021F6CD4EB0076C991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8855DA031F6CD4EB0076C991 /* OpenCCDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCCDemo.entitlements; sourceTree = "<group>"; };
+		887576011F684472004D7895 /* darts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = darts.h; path = "OpenCC/deps/darts-clone/darts.h"; sourceTree = "<group>"; };
+		887576031F6844BD004D7895 /* pow10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pow10.h; path = "OpenCC/deps/rapidjson-0.11/internal/pow10.h"; sourceTree = "<group>"; };
+		887576041F6844BD004D7895 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "OpenCC/deps/rapidjson-0.11/internal/stack.h"; sourceTree = "<group>"; };
+		887576051F6844BD004D7895 /* strfunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strfunc.h; path = "OpenCC/deps/rapidjson-0.11/internal/strfunc.h"; sourceTree = "<group>"; };
+		887576061F6844D0004D7895 /* prettywriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = prettywriter.h; path = "OpenCC/deps/rapidjson-0.11/prettywriter.h"; sourceTree = "<group>"; };
+		887576071F6844D1004D7895 /* rapidjson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rapidjson.h; path = "OpenCC/deps/rapidjson-0.11/rapidjson.h"; sourceTree = "<group>"; };
+		887576081F6844D1004D7895 /* reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = reader.h; path = "OpenCC/deps/rapidjson-0.11/reader.h"; sourceTree = "<group>"; };
+		887576091F6844D1004D7895 /* writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = writer.h; path = "OpenCC/deps/rapidjson-0.11/writer.h"; sourceTree = "<group>"; };
+		8875760A1F6844D1004D7895 /* filestream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = filestream.h; path = "OpenCC/deps/rapidjson-0.11/filestream.h"; sourceTree = "<group>"; };
+		8875760B1F6844D1004D7895 /* document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = document.h; path = "OpenCC/deps/rapidjson-0.11/document.h"; sourceTree = "<group>"; };
+		8875760C1F6844D1004D7895 /* stringbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stringbuffer.h; path = "OpenCC/deps/rapidjson-0.11/stringbuffer.h"; sourceTree = "<group>"; };
+		8875760D1F6845F3004D7895 /* PhraseExtract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PhraseExtract.cpp; path = OpenCC/src/PhraseExtract.cpp; sourceTree = "<group>"; };
+		8875760E1F6845F3004D7895 /* DictEntry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DictEntry.hpp; path = OpenCC/src/DictEntry.hpp; sourceTree = "<group>"; };
+		8875760F1F6845F3004D7895 /* Optional.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Optional.hpp; path = OpenCC/src/Optional.hpp; sourceTree = "<group>"; };
+		887576101F6845F3004D7895 /* Config.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Config.hpp; path = OpenCC/src/Config.hpp; sourceTree = "<group>"; };
+		887576111F6845F3004D7895 /* Segmentation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Segmentation.cpp; path = OpenCC/src/Segmentation.cpp; sourceTree = "<group>"; };
+		887576121F6845F3004D7895 /* Dict.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Dict.hpp; path = OpenCC/src/Dict.hpp; sourceTree = "<group>"; };
+		887576131F6845F3004D7895 /* SerializableDict.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SerializableDict.hpp; path = OpenCC/src/SerializableDict.hpp; sourceTree = "<group>"; };
+		887576141F6845F3004D7895 /* SimpleConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleConverter.cpp; path = OpenCC/src/SimpleConverter.cpp; sourceTree = "<group>"; };
+		887576151F6845F3004D7895 /* Common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Common.hpp; path = OpenCC/src/Common.hpp; sourceTree = "<group>"; };
+		887576161F6845F3004D7895 /* Lexicon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Lexicon.hpp; path = OpenCC/src/Lexicon.hpp; sourceTree = "<group>"; };
+		887576171F6845F3004D7895 /* SimpleConverter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SimpleConverter.hpp; path = OpenCC/src/SimpleConverter.hpp; sourceTree = "<group>"; };
+		887576181F6845F3004D7895 /* BinaryDict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryDict.cpp; path = OpenCC/src/BinaryDict.cpp; sourceTree = "<group>"; };
+		887576191F6845F3004D7895 /* DartsDict.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DartsDict.hpp; path = OpenCC/src/DartsDict.hpp; sourceTree = "<group>"; };
+		8875761A1F6845F4004D7895 /* Converter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Converter.hpp; path = OpenCC/src/Converter.hpp; sourceTree = "<group>"; };
+		8875761B1F6845F4004D7895 /* DictConverter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DictConverter.hpp; path = OpenCC/src/DictConverter.hpp; sourceTree = "<group>"; };
+		8875761D1F6845F4004D7895 /* BinaryDict.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BinaryDict.hpp; path = OpenCC/src/BinaryDict.hpp; sourceTree = "<group>"; };
+		8875761E1F6845F4004D7895 /* MaxMatchSegmentation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MaxMatchSegmentation.hpp; path = OpenCC/src/MaxMatchSegmentation.hpp; sourceTree = "<group>"; };
+		8875761F1F6845F4004D7895 /* Exception.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Exception.hpp; path = OpenCC/src/Exception.hpp; sourceTree = "<group>"; };
+		887576201F6845F4004D7895 /* CmdLineOutput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CmdLineOutput.hpp; path = OpenCC/src/CmdLineOutput.hpp; sourceTree = "<group>"; };
+		887576211F6845F4004D7895 /* Config.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Config.cpp; path = OpenCC/src/Config.cpp; sourceTree = "<group>"; };
+		887576221F6845F4004D7895 /* Dict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Dict.cpp; path = OpenCC/src/Dict.cpp; sourceTree = "<group>"; };
+		887576231F6845F4004D7895 /* DictConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DictConverter.cpp; path = OpenCC/src/DictConverter.cpp; sourceTree = "<group>"; };
+		887576241F6845F4004D7895 /* TextDict.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TextDict.hpp; path = OpenCC/src/TextDict.hpp; sourceTree = "<group>"; };
+		887576251F6845F4004D7895 /* UTF8Util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = UTF8Util.hpp; path = OpenCC/src/UTF8Util.hpp; sourceTree = "<group>"; };
+		887576261F6845F5004D7895 /* DictGroup.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = DictGroup.hpp; path = OpenCC/src/DictGroup.hpp; sourceTree = "<group>"; };
+		887576271F6845F5004D7895 /* Segments.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Segments.hpp; path = OpenCC/src/Segments.hpp; sourceTree = "<group>"; };
+		887576281F6845F5004D7895 /* DictEntry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DictEntry.cpp; path = OpenCC/src/DictEntry.cpp; sourceTree = "<group>"; };
+		887576291F6845F5004D7895 /* Converter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Converter.cpp; path = OpenCC/src/Converter.cpp; sourceTree = "<group>"; };
+		8875762A1F6845F5004D7895 /* PhraseExtract.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PhraseExtract.hpp; path = OpenCC/src/PhraseExtract.hpp; sourceTree = "<group>"; };
+		8875762B1F6845F5004D7895 /* MaxMatchSegmentation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MaxMatchSegmentation.cpp; path = OpenCC/src/MaxMatchSegmentation.cpp; sourceTree = "<group>"; };
+		8875762C1F6845F5004D7895 /* TextDict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TextDict.cpp; path = OpenCC/src/TextDict.cpp; sourceTree = "<group>"; };
+		8875762D1F6845F5004D7895 /* UTF8StringSlice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UTF8StringSlice.cpp; path = OpenCC/src/UTF8StringSlice.cpp; sourceTree = "<group>"; };
+		8875762E1F6845F6004D7895 /* UTF8StringSlice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = UTF8StringSlice.hpp; path = OpenCC/src/UTF8StringSlice.hpp; sourceTree = "<group>"; };
+		8875762F1F6845F6004D7895 /* ConversionChain.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ConversionChain.hpp; path = OpenCC/src/ConversionChain.hpp; sourceTree = "<group>"; };
+		887576301F6845F6004D7895 /* UTF8Util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UTF8Util.cpp; path = OpenCC/src/UTF8Util.cpp; sourceTree = "<group>"; };
+		887576311F6845F6004D7895 /* Conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Conversion.cpp; path = OpenCC/src/Conversion.cpp; sourceTree = "<group>"; };
+		887576321F6845F6004D7895 /* Conversion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Conversion.hpp; path = OpenCC/src/Conversion.hpp; sourceTree = "<group>"; };
+		887576331F6845F6004D7895 /* ConversionChain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ConversionChain.cpp; path = OpenCC/src/ConversionChain.cpp; sourceTree = "<group>"; };
+		887576341F6845F6004D7895 /* Segmentation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Segmentation.hpp; path = OpenCC/src/Segmentation.hpp; sourceTree = "<group>"; };
+		887576351F6845F7004D7895 /* DictGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DictGroup.cpp; path = OpenCC/src/DictGroup.cpp; sourceTree = "<group>"; };
+		887576361F6845F7004D7895 /* DartsDict.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DartsDict.cpp; path = OpenCC/src/DartsDict.cpp; sourceTree = "<group>"; };
+		887576371F6845F7004D7895 /* Export.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Export.hpp; path = OpenCC/src/Export.hpp; sourceTree = "<group>"; };
+		887576381F6845F7004D7895 /* opencc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = opencc.h; path = OpenCC/src/opencc.h; sourceTree = "<group>"; };
+		887576651F6848B4004D7895 /* ChineseConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseConverter.swift; sourceTree = "<group>"; };
+		888DFA821F6CA05E00340AA7 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		88B502FF1F66C7D700B82A93 /* OpenCCSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCCSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B503031F66C7D700B82A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DCE3641F6D15E70075DC12 /* demo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = demo.txt; sourceTree = "<group>"; };
+		88DCE3671F6D30550075DC12 /* mouse.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mouse.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8855D9F61F6CD4EB0076C991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855DA081F6CD5360076C991 /* OpenCCSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B502FB1F66C7D700B82A93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -27,29 +223,214 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881B44921F676050005D8A4C /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				881B44941F67607F005D8A4C /* rapidjson */,
+				881B44931F676064005D8A4C /* darts-clone */,
+			);
+			name = deps;
+			sourceTree = "<group>";
+		};
+		881B44931F676064005D8A4C /* darts-clone */ = {
+			isa = PBXGroup;
+			children = (
+				887576011F684472004D7895 /* darts.h */,
+			);
+			name = "darts-clone";
+			sourceTree = "<group>";
+		};
+		881B44941F67607F005D8A4C /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				887575C91F683FA6004D7895 /* internal */,
+				8875760B1F6844D1004D7895 /* document.h */,
+				8875760A1F6844D1004D7895 /* filestream.h */,
+				887576061F6844D0004D7895 /* prettywriter.h */,
+				887576071F6844D1004D7895 /* rapidjson.h */,
+				887576081F6844D1004D7895 /* reader.h */,
+				8875760C1F6844D1004D7895 /* stringbuffer.h */,
+				887576091F6844D1004D7895 /* writer.h */,
+			);
+			name = rapidjson;
+			sourceTree = "<group>";
+		};
+		8846C0A81F6AE90000B9A83A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8846C0B41F6AE92B00B9A83A /* dictionary */,
+				8846C0A91F6AE90A00B9A83A /* config */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		8846C0A91F6AE90A00B9A83A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8846C0B31F6AE92600B9A83A /* hk2s.json */,
+				8846C0AF1F6AE92600B9A83A /* s2hk.json */,
+				8846C0AA1F6AE92500B9A83A /* s2t.json */,
+				8846C0AB1F6AE92600B9A83A /* s2tw.json */,
+				8846C0B21F6AE92600B9A83A /* s2twp.json */,
+				8846C0B11F6AE92600B9A83A /* t2hk.json */,
+				8846C0AC1F6AE92600B9A83A /* t2s.json */,
+				8846C0AD1F6AE92600B9A83A /* t2tw.json */,
+				8846C0AE1F6AE92600B9A83A /* tw2s.json */,
+				8846C0B01F6AE92600B9A83A /* tw2sp.json */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		8846C0B41F6AE92B00B9A83A /* dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				8846C0B91F6AEB3B00B9A83A /* HKVariants.ocd */,
+				8846C0BA1F6AEB3B00B9A83A /* HKVariantsPhrases.ocd */,
+				8846C0C01F6AEB3B00B9A83A /* HKVariantsRev.ocd */,
+				8846C0C21F6AEB3C00B9A83A /* HKVariantsRevPhrases.ocd */,
+				8846C0BB1F6AEB3B00B9A83A /* JPVariants.ocd */,
+				8846C0BF1F6AEB3B00B9A83A /* STCharacters.ocd */,
+				8846C0BC1F6AEB3B00B9A83A /* STPhrases.ocd */,
+				8846C0B51F6AEB3B00B9A83A /* TSCharacters.ocd */,
+				8846C0BE1F6AEB3B00B9A83A /* TSPhrases.ocd */,
+				8846C0C11F6AEB3B00B9A83A /* TWPhrases.ocd */,
+				8846C0BD1F6AEB3B00B9A83A /* TWPhrasesRev.ocd */,
+				8846C0B61F6AEB3B00B9A83A /* TWVariants.ocd */,
+				8846C0B71F6AEB3B00B9A83A /* TWVariantsRev.ocd */,
+				8846C0B81F6AEB3B00B9A83A /* TWVariantsRevPhrases.ocd */,
+			);
+			name = dictionary;
+			sourceTree = "<group>";
+		};
+		8855D9DB1F6CC6710076C991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8855D9FA1F6CD4EB0076C991 /* OpenCCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8855DA071F6CD51B0076C991 /* Other */,
+				8855D9FB1F6CD4EB0076C991 /* AppDelegate.swift */,
+				8855D9FF1F6CD4EB0076C991 /* MainMenu.xib */,
+			);
+			path = OpenCCDemo;
+			sourceTree = "<group>";
+		};
+		8855DA071F6CD51B0076C991 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8855D9FD1F6CD4EB0076C991 /* Assets.xcassets */,
+				88DCE3641F6D15E70075DC12 /* demo.txt */,
+				88DCE3671F6D30550075DC12 /* mouse.txt */,
+				8855DA021F6CD4EB0076C991 /* Info.plist */,
+				8855DA031F6CD4EB0076C991 /* OpenCCDemo.entitlements */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		887575C91F683FA6004D7895 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				887576031F6844BD004D7895 /* pow10.h */,
+				887576041F6844BD004D7895 /* stack.h */,
+				887576051F6844BD004D7895 /* strfunc.h */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
 		88B502F51F66C7D700B82A93 = {
 			isa = PBXGroup;
 			children = (
-				88B503011F66C7D700B82A93 /* OpenCC */,
+				88B5030B1F66CEE800B82A93 /* OpenCC */,
+				88B503011F66C7D700B82A93 /* Swift */,
+				8855D9FA1F6CD4EB0076C991 /* OpenCCDemo */,
 				88B503001F66C7D700B82A93 /* Products */,
+				8855D9DB1F6CC6710076C991 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		88B503001F66C7D700B82A93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88B502FF1F66C7D700B82A93 /* OpenCC.framework */,
+				88B502FF1F66C7D700B82A93 /* OpenCCSwift.framework */,
+				8855D9F91F6CD4EB0076C991 /* OpenCCDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88B503011F66C7D700B82A93 /* OpenCC */ = {
+		88B503011F66C7D700B82A93 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				88B503021F66C7D700B82A93 /* OpenCC.h */,
+				888DFA821F6CA05E00340AA7 /* module.modulemap */,
+				884EE9D61F6CDB1300EBD9C7 /* module.private.modulemap */,
 				88B503031F66C7D700B82A93 /* Info.plist */,
+				887576651F6848B4004D7895 /* ChineseConverter.swift */,
+				8846C0CD1F6B517E00B9A83A /* ChineseConverter+Embeded.swift */,
 			);
-			path = OpenCC;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		88B5030B1F66CEE800B82A93 /* OpenCC */ = {
+			isa = PBXGroup;
+			children = (
+				8846C0A81F6AE90000B9A83A /* data */,
+				881B44921F676050005D8A4C /* deps */,
+				88B5030C1F66CEF400B82A93 /* src */,
+			);
+			name = OpenCC;
+			sourceTree = "<group>";
+		};
+		88B5030C1F66CEF400B82A93 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				887576181F6845F3004D7895 /* BinaryDict.cpp */,
+				8875761D1F6845F4004D7895 /* BinaryDict.hpp */,
+				887576201F6845F4004D7895 /* CmdLineOutput.hpp */,
+				887576151F6845F3004D7895 /* Common.hpp */,
+				887576211F6845F4004D7895 /* Config.cpp */,
+				887576101F6845F3004D7895 /* Config.hpp */,
+				887576311F6845F6004D7895 /* Conversion.cpp */,
+				887576321F6845F6004D7895 /* Conversion.hpp */,
+				887576331F6845F6004D7895 /* ConversionChain.cpp */,
+				8875762F1F6845F6004D7895 /* ConversionChain.hpp */,
+				887576291F6845F5004D7895 /* Converter.cpp */,
+				8875761A1F6845F4004D7895 /* Converter.hpp */,
+				887576361F6845F7004D7895 /* DartsDict.cpp */,
+				887576191F6845F3004D7895 /* DartsDict.hpp */,
+				887576221F6845F4004D7895 /* Dict.cpp */,
+				887576121F6845F3004D7895 /* Dict.hpp */,
+				887576231F6845F4004D7895 /* DictConverter.cpp */,
+				8875761B1F6845F4004D7895 /* DictConverter.hpp */,
+				887576281F6845F5004D7895 /* DictEntry.cpp */,
+				8875760E1F6845F3004D7895 /* DictEntry.hpp */,
+				887576351F6845F7004D7895 /* DictGroup.cpp */,
+				887576261F6845F5004D7895 /* DictGroup.hpp */,
+				8875761F1F6845F4004D7895 /* Exception.hpp */,
+				887576371F6845F7004D7895 /* Export.hpp */,
+				887576161F6845F3004D7895 /* Lexicon.hpp */,
+				8875762B1F6845F5004D7895 /* MaxMatchSegmentation.cpp */,
+				8875761E1F6845F4004D7895 /* MaxMatchSegmentation.hpp */,
+				887576381F6845F7004D7895 /* opencc.h */,
+				8875760F1F6845F3004D7895 /* Optional.hpp */,
+				8875760D1F6845F3004D7895 /* PhraseExtract.cpp */,
+				8875762A1F6845F5004D7895 /* PhraseExtract.hpp */,
+				887576111F6845F3004D7895 /* Segmentation.cpp */,
+				887576341F6845F6004D7895 /* Segmentation.hpp */,
+				887576271F6845F5004D7895 /* Segments.hpp */,
+				887576131F6845F3004D7895 /* SerializableDict.hpp */,
+				887576141F6845F3004D7895 /* SimpleConverter.cpp */,
+				887576171F6845F3004D7895 /* SimpleConverter.hpp */,
+				8875762C1F6845F5004D7895 /* TextDict.cpp */,
+				887576241F6845F4004D7895 /* TextDict.hpp */,
+				8875762D1F6845F5004D7895 /* UTF8StringSlice.cpp */,
+				8875762E1F6845F6004D7895 /* UTF8StringSlice.hpp */,
+				887576301F6845F6004D7895 /* UTF8Util.cpp */,
+				887576251F6845F4004D7895 /* UTF8Util.hpp */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,29 +440,74 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B503041F66C7D700B82A93 /* OpenCC.h in Headers */,
+				887576541F684659004D7895 /* opencc.h in Headers */,
+				8875763B1F684659004D7895 /* CmdLineOutput.hpp in Headers */,
+				8875764C1F684659004D7895 /* DictEntry.hpp in Headers */,
+				8875765D1F684659004D7895 /* SimpleConverter.hpp in Headers */,
+				8875764E1F684659004D7895 /* DictGroup.hpp in Headers */,
+				887576511F684659004D7895 /* Lexicon.hpp in Headers */,
+				887576531F684659004D7895 /* MaxMatchSegmentation.hpp in Headers */,
+				887576461F684659004D7895 /* DartsDict.hpp in Headers */,
+				8875763C1F684659004D7895 /* Common.hpp in Headers */,
+				8875765A1F684659004D7895 /* Segments.hpp in Headers */,
+				887576601F684659004D7895 /* TextDict.hpp in Headers */,
+				887576421F684659004D7895 /* ConversionChain.hpp in Headers */,
+				887576481F684659004D7895 /* Dict.hpp in Headers */,
+				887576551F684659004D7895 /* Optional.hpp in Headers */,
+				887576641F684659004D7895 /* UTF8Util.hpp in Headers */,
+				887576441F684659004D7895 /* Converter.hpp in Headers */,
+				8875764F1F684659004D7895 /* Exception.hpp in Headers */,
+				887576571F684659004D7895 /* PhraseExtract.hpp in Headers */,
+				887576401F684659004D7895 /* Conversion.hpp in Headers */,
+				887576501F684659004D7895 /* Export.hpp in Headers */,
+				887576621F684659004D7895 /* UTF8StringSlice.hpp in Headers */,
+				887576591F684659004D7895 /* Segmentation.hpp in Headers */,
+				8875764A1F684659004D7895 /* DictConverter.hpp in Headers */,
+				8875763E1F684659004D7895 /* Config.hpp in Headers */,
+				8875763A1F684659004D7895 /* BinaryDict.hpp in Headers */,
+				8875765B1F684659004D7895 /* SerializableDict.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88B502FE1F66C7D700B82A93 /* OpenCC */ = {
+		8855D9F81F6CD4EB0076C991 /* OpenCCDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88B503071F66C7D700B82A93 /* Build configuration list for PBXNativeTarget "OpenCC" */;
+			buildConfigurationList = 8855DA041F6CD4EB0076C991 /* Build configuration list for PBXNativeTarget "OpenCCDemo" */;
+			buildPhases = (
+				8855D9F51F6CD4EB0076C991 /* Sources */,
+				8855D9F61F6CD4EB0076C991 /* Frameworks */,
+				8855D9F71F6CD4EB0076C991 /* Resources */,
+				8855DA0C1F6CD5360076C991 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8855DA0B1F6CD5360076C991 /* PBXTargetDependency */,
+			);
+			name = OpenCCDemo;
+			productName = OpenCCDemo;
+			productReference = 8855D9F91F6CD4EB0076C991 /* OpenCCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B502FE1F66C7D700B82A93 /* OpenCCSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B503071F66C7D700B82A93 /* Build configuration list for PBXNativeTarget "OpenCCSwift" */;
 			buildPhases = (
 				88B502FA1F66C7D700B82A93 /* Sources */,
 				88B502FB1F66C7D700B82A93 /* Frameworks */,
 				88B502FC1F66C7D700B82A93 /* Headers */,
+				88B4CBA21F682B3600CB7A9C /* ShellScript */,
 				88B502FD1F66C7D700B82A93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenCC;
+			name = OpenCCSwift;
 			productName = OpenCC;
-			productReference = 88B502FF1F66C7D700B82A93 /* OpenCC.framework */;
+			productReference = 88B502FF1F66C7D700B82A93 /* OpenCCSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -90,11 +516,17 @@
 		88B502F61F66C7D700B82A93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Michael Row";
 				TargetAttributes = {
+					8855D9F81F6CD4EB0076C991 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					88B502FE1F66C7D700B82A93 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -105,38 +537,171 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 88B502F51F66C7D700B82A93;
 			productRefGroup = 88B503001F66C7D700B82A93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88B502FE1F66C7D700B82A93 /* OpenCC */,
+				88B502FE1F66C7D700B82A93 /* OpenCCSwift */,
+				8855D9F81F6CD4EB0076C991 /* OpenCCDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8855D9F71F6CD4EB0076C991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DCE3681F6D305D0075DC12 /* mouse.txt in Resources */,
+				8855D9FE1F6CD4EB0076C991 /* Assets.xcassets in Resources */,
+				88DCE3661F6D20340075DC12 /* demo.txt in Resources */,
+				8855DA011F6CD4EB0076C991 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B502FD1F66C7D700B82A93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A2D67A1F6D05D900F54CB3 /* HKVariantsRev.ocd in Resources */,
+				8846C0C91F6AEB4000B9A83A /* t2s.json in Resources */,
+				88A2D6801F6D05D900F54CB3 /* TSPhrases.ocd in Resources */,
+				8846C0C31F6AEB4000B9A83A /* hk2s.json in Resources */,
+				88A2D6821F6D05D900F54CB3 /* TWPhrasesRev.ocd in Resources */,
+				8846C0CA1F6AEB4000B9A83A /* t2tw.json in Resources */,
+				88A2D67C1F6D05D900F54CB3 /* JPVariants.ocd in Resources */,
+				88A2D6811F6D05D900F54CB3 /* TWPhrases.ocd in Resources */,
+				8846C0C61F6AEB4000B9A83A /* s2tw.json in Resources */,
+				8846C0C41F6AEB4000B9A83A /* s2hk.json in Resources */,
+				88A2D6851F6D05D900F54CB3 /* TWVariantsRevPhrases.ocd in Resources */,
+				88A2D6841F6D05D900F54CB3 /* TWVariantsRev.ocd in Resources */,
+				88A2D67B1F6D05D900F54CB3 /* HKVariantsRevPhrases.ocd in Resources */,
+				8846C0C71F6AEB4000B9A83A /* s2twp.json in Resources */,
+				88A2D67F1F6D05D900F54CB3 /* TSCharacters.ocd in Resources */,
+				88A2D6791F6D05D900F54CB3 /* HKVariantsPhrases.ocd in Resources */,
+				8846C0C81F6AEB4000B9A83A /* t2hk.json in Resources */,
+				88A2D67D1F6D05D900F54CB3 /* STCharacters.ocd in Resources */,
+				8846C0C51F6AEB4000B9A83A /* s2t.json in Resources */,
+				88A2D6781F6D05D900F54CB3 /* HKVariants.ocd in Resources */,
+				88A2D67E1F6D05D900F54CB3 /* STPhrases.ocd in Resources */,
+				88A2D6831F6D05D900F54CB3 /* TWVariants.ocd in Resources */,
+				8846C0CC1F6AEB4000B9A83A /* tw2sp.json in Resources */,
+				8846C0CB1F6AEB4000B9A83A /* tw2s.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88B4CBA21F682B3600CB7A9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\nbash Resource/build.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8855D9F51F6CD4EB0076C991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855D9FC1F6CD4EB0076C991 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88B502FA1F66C7D700B82A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887576561F684659004D7895 /* PhraseExtract.cpp in Sources */,
+				8846C0CE1F6B517E00B9A83A /* ChineseConverter+Embeded.swift in Sources */,
+				887576581F684659004D7895 /* Segmentation.cpp in Sources */,
+				887576391F684659004D7895 /* BinaryDict.cpp in Sources */,
+				8875764B1F684659004D7895 /* DictEntry.cpp in Sources */,
+				887576411F684659004D7895 /* ConversionChain.cpp in Sources */,
+				8875765F1F684659004D7895 /* TextDict.cpp in Sources */,
+				887576431F684659004D7895 /* Converter.cpp in Sources */,
+				8875763F1F684659004D7895 /* Conversion.cpp in Sources */,
+				887576661F6848B4004D7895 /* ChineseConverter.swift in Sources */,
+				8875764D1F684659004D7895 /* DictGroup.cpp in Sources */,
+				8875765C1F684659004D7895 /* SimpleConverter.cpp in Sources */,
+				887576521F684659004D7895 /* MaxMatchSegmentation.cpp in Sources */,
+				887576451F684659004D7895 /* DartsDict.cpp in Sources */,
+				887576611F684659004D7895 /* UTF8StringSlice.cpp in Sources */,
+				8875763D1F684659004D7895 /* Config.cpp in Sources */,
+				887576491F684659004D7895 /* DictConverter.cpp in Sources */,
+				887576631F684659004D7895 /* UTF8Util.cpp in Sources */,
+				887576471F684659004D7895 /* Dict.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8855DA0B1F6CD5360076C991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B502FE1F66C7D700B82A93 /* OpenCCSwift */;
+			targetProxy = 8855DA0A1F6CD5360076C991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8855D9FF1F6CD4EB0076C991 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8855DA001F6CD4EB0076C991 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		8855DA051F6CD4EB0076C991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenCCDemo/OpenCCDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenCCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8855DA061F6CD4EB0076C991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenCCDemo/OpenCCDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OpenCCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		88B503051F66C7D700B82A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -186,7 +751,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -240,7 +805,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -252,6 +817,7 @@
 		88B503081F66C7D700B82A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -260,12 +826,18 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = OpenCC/Info.plist;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Swift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvsimulator appletvos watchsimulator watchos";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Swift";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -273,6 +845,7 @@
 		88B503091F66C7D700B82A93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -281,12 +854,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = OpenCC/Info.plist;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Swift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				MODULEMAP_PRIVATE_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvsimulator appletvos watchsimulator watchos";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Swift";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -294,6 +872,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8855DA041F6CD4EB0076C991 /* Build configuration list for PBXNativeTarget "OpenCCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8855DA051F6CD4EB0076C991 /* Debug */,
+				8855DA061F6CD4EB0076C991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88B502F91F66C7D700B82A93 /* Build configuration list for PBXProject "OpenCC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -303,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88B503071F66C7D700B82A93 /* Build configuration list for PBXNativeTarget "OpenCC" */ = {
+		88B503071F66C7D700B82A93 /* Build configuration list for PBXNativeTarget "OpenCCSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88B503081F66C7D700B82A93 /* Debug */,

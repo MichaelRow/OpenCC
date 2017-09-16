@@ -1,0 +1,1 @@
+module OpenCCBridge [system] [extern_c] { }
