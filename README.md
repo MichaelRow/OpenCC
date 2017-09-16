@@ -28,6 +28,6 @@ let converter = ChineseConverter(opt)
 let result = converter.convert(string: "操作系统")
 
 // or you can use it this way.
-let converter2 = ChineseConverter(Simplize.taiwanStandard)
+let converter2 = ChineseConverter(Traditionalize.taiwanStandard)
 let result2 = converter2.convert(string: "操作系统")
 ```
