@@ -835,7 +835,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvsimulator appletvos watchsimulator watchos";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Swift";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -863,7 +863,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MR.OpenCC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvsimulator appletvos watchsimulator watchos";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Swift";
 				SWIFT_VERSION = 4.0;
 			};

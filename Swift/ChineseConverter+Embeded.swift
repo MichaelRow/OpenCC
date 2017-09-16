@@ -82,43 +82,43 @@ extension ChineseConverter {
             }
         }
     }
+}
+
+public struct Standardize {
     
-    public struct Standardize {
-        
-        public static let taiwanStandard: ConvertOption = [.taiwanStandard]
-        
-        public static let hkStandard: ConvertOption = [.hkStandard]
-        
-        private init() {}
-    }
+    public static let taiwanStandard: ChineseConverter.ConvertOption = [.taiwanStandard]
     
-    public struct Simplize {
-        
-        /// Default simplize without HK and Taiwan localization.
-        public static let `default`: ConvertOption = [.simplize]
-        
-        /// Simplify Taiwan traditional Chinese characters only.
-        public static let taiwanStandard: ConvertOption = [.simplize, .taiwanStandard]
-        
-        /// Simplify HK traditional Chinese characters only.
-        public static let hkStandard: ConvertOption = [.simplize, .hkStandard]
-        
-        /// Simplify Taiwan traditional Chinese characters alone with localize phrase.
-        public static let taiwanPhrase: ConvertOption = [.simplize, .taiwanStandard, .withPhrase]
-        
-        private init() {}
-    }
+    public static let hkStandard: ChineseConverter.ConvertOption = [.hkStandard]
     
-    public struct Traditionalize {
-        
-        public static let `default`: ConvertOption = [.traditionalize]
-        
-        public static let taiwanStandard: ConvertOption = [.traditionalize, .taiwanStandard]
-        
-        public static let hkStandard: ConvertOption = [.traditionalize, .hkStandard]
-        
-        public static let taiwanPhrase: ConvertOption = [.traditionalize, .taiwanStandard, .withPhrase]
-        
-        private init() {}
-    }
+    private init() {}
+}
+
+public struct Simplize {
+    
+    /// Default simplize without HK and Taiwan localization.
+    public static let `default`: ChineseConverter.ConvertOption = [.simplize]
+    
+    /// Simplify Taiwan traditional Chinese characters only.
+    public static let taiwanStandard: ChineseConverter.ConvertOption = [.simplize, .taiwanStandard]
+    
+    /// Simplify HK traditional Chinese characters only.
+    public static let hkStandard: ChineseConverter.ConvertOption = [.simplize, .hkStandard]
+    
+    /// Simplify Taiwan traditional Chinese characters alone with localize phrase.
+    public static let taiwanPhrase: ChineseConverter.ConvertOption = [.simplize, .taiwanStandard, .withPhrase]
+    
+    private init() {}
+}
+
+public struct Traditionalize {
+    
+    public static let `default`: ChineseConverter.ConvertOption = [.traditionalize]
+    
+    public static let taiwanStandard: ChineseConverter.ConvertOption = [.traditionalize, .taiwanStandard]
+    
+    public static let hkStandard: ChineseConverter.ConvertOption = [.traditionalize, .hkStandard]
+    
+    public static let taiwanPhrase: ChineseConverter.ConvertOption = [.traditionalize, .taiwanStandard, .withPhrase]
+    
+    private init() {}
 }
