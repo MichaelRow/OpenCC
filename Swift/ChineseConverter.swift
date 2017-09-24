@@ -19,7 +19,12 @@ public class ChineseConverter {
     
     /// Initilize with the ConvertOption set. Simplize without any other option by default.
     ///
-    /// Or you can Use Standardize/Simplize/Traditionalize struct to get the preset.
+    /// Or you can Use Standardize/Simplize/Traditionalize struct to get the preset, for exmple:
+    ///
+    ///     let standardizer = ChineseConverter(Standardize.hkStandard)
+    ///     let simplizer = ChineseConverter(Simplize.taiwanPhrase)
+    ///     let traditionalizer = ChineseConverter(Traditionalize.default)
+    ///
     public init?(_ options: ConvertOption) {
         convertOptions = options.standardize()
         
